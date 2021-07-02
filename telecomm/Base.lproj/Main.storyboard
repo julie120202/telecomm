@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="telecomm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="n85-Dd-fWc">
+                                <rect key="frame" x="20" y="88" width="374" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRN-fh-2S0">
+                                <rect key="frame" x="0.0" y="155" width="414" height="678"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HhH-4O-fBs">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlT-uE-gZ9">
+                                                <rect key="frame" x="111" y="8" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 1"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="jgv-wb-hoc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAs-9r-Tyl">
+                                                <rect key="frame" x="111" y="106" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 2"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="16o-5M-vg7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhN-65-fuv">
+                                                <rect key="frame" x="111" y="204" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 3"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="fCo-lk-H3Q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7z-EZ-MXf">
+                                                <rect key="frame" x="111" y="302" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 4"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="lyL-Cn-2vt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1g-lX-WH2">
+                                                <rect key="frame" x="111" y="400" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 5"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="tDn-Ub-xne"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2C1-5K-N4P">
+                                                <rect key="frame" x="111" y="498" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 6"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="kya-PF-ha6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehk-rZ-nvC">
+                                                <rect key="frame" x="111" y="596" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 7"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="OWl-1K-O9H"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xje-ti-UF4">
+                                                <rect key="frame" x="111" y="694" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 8"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="pt2-6h-vYE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fb3-QH-hBO">
+                                                <rect key="frame" x="111" y="792" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 9"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="hnV-n3-zVw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IU8-dl-RlV">
+                                                <rect key="frame" x="111" y="890" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 10"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="vbs-Zw-6AA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzr-x5-eDq">
+                                                <rect key="frame" x="111" y="988" width="295" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="STUDY ROOM 11"/>
+                                                <connections>
+                                                    <segue destination="eWn-FZ-Mu3" kind="show" id="TFi-C9-3Yc"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pfp" translatesAutoresizingMaskIntoConstraints="NO" id="Ydp-QK-efq">
+                                                <rect key="frame" x="8" y="8" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-2" translatesAutoresizingMaskIntoConstraints="NO" id="IOW-Bu-Jta">
+                                                <rect key="frame" x="8" y="106" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-1" translatesAutoresizingMaskIntoConstraints="NO" id="eic-7u-8hw">
+                                                <rect key="frame" x="8" y="302" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-5" translatesAutoresizingMaskIntoConstraints="NO" id="el3-pw-eaf">
+                                                <rect key="frame" x="8" y="400" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="vmb-9V-wG7">
+                                                <rect key="frame" x="8" y="498" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="5iY-PY-4Is">
+                                                <rect key="frame" x="8" y="596" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="vnC-Qr-Otf">
+                                                <rect key="frame" x="8" y="694" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-6" translatesAutoresizingMaskIntoConstraints="NO" id="IGE-Ch-7eN">
+                                                <rect key="frame" x="8" y="792" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-4" translatesAutoresizingMaskIntoConstraints="NO" id="aJz-7k-uqt">
+                                                <rect key="frame" x="8" y="890" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-3" translatesAutoresizingMaskIntoConstraints="NO" id="KWD-LP-onc">
+                                                <rect key="frame" x="8" y="988" width="95" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-7" translatesAutoresizingMaskIntoConstraints="NO" id="s7m-iH-jQg">
+                                                <rect key="frame" x="4" y="204" width="103" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1100" id="lRG-Uu-Ca7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HhH-4O-fBs" firstAttribute="leading" secondItem="yRN-fh-2S0" secondAttribute="leading" id="0eM-A5-7U9"/>
+                                    <constraint firstAttribute="bottom" secondItem="HhH-4O-fBs" secondAttribute="bottom" id="fvQ-ll-s7c"/>
+                                    <constraint firstItem="HhH-4O-fBs" firstAttribute="top" secondItem="yRN-fh-2S0" secondAttribute="top" id="l7l-Yq-19r"/>
+                                    <constraint firstAttribute="trailing" secondItem="HhH-4O-fBs" secondAttribute="trailing" id="u24-Ca-j3E"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="uBh-Mz-Ysn"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Ra0-gz-5ic"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocG-J5-4zq">
+                                <rect key="frame" x="330" y="54" width="64" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="call"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HhH-4O-fBs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Cvj-8p-Nek"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n85-Dd-fWc" secondAttribute="trailing" constant="20" id="GCm-o4-Dua"/>
+                            <constraint firstItem="yRN-fh-2S0" firstAttribute="top" secondItem="n85-Dd-fWc" secondAttribute="bottom" constant="16" id="Jw5-5M-UQX"/>
+                            <constraint firstItem="n85-Dd-fWc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MSH-Ch-nSm"/>
+                            <constraint firstItem="n85-Dd-fWc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="oo4-HU-PKm"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yFD-M4-z0D">
+            <objects>
+                <viewController id="eWn-FZ-Mu3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yzP-fD-EBB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-8" translatesAutoresizingMaskIntoConstraints="NO" id="wow-00-a7u">
+                                <rect key="frame" x="83" y="244" width="249" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aZ-aM-Zg8">
+                                <rect key="frame" x="83" y="510" width="249" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85314738800000001" green="0.99055678920000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="JOIN"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kj4-kk-lJH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Oaj-3m-f7H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zN7-W8-91H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="679.71014492753625" y="9.375"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TFi-C9-3Yc"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Unknown" width="225" height="225"/>
+        <image name="Unknown-1" width="225" height="225"/>
+        <image name="images" width="228" height="221"/>
+        <image name="images-1" width="238" height="212"/>
+        <image name="images-2" width="238" height="211"/>
+        <image name="images-3" width="224" height="224"/>
+        <image name="images-4" width="225" height="225"/>
+        <image name="images-5" width="220" height="230"/>
+        <image name="images-6" width="225" height="225"/>
+        <image name="images-7" width="201" height="251"/>
+        <image name="images-8" width="225" height="225"/>
+        <image name="pfp" width="749" height="754"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
